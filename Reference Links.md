@@ -38,7 +38,6 @@ Welcome to the reference section! Here you'll find useful resources and links re
 
 - [Universal forwarder overview](https://www.splunk.com/en_us/blog/learn/splunk-universal-forwarder.html)
 
-
 ## Community and Support
 
 - [How Indexing Works](https://tinyurl.com/bdzbcetp)
