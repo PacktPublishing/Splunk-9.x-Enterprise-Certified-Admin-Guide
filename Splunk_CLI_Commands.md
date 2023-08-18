@@ -2,6 +2,7 @@
 
 The Command Line Interface (CLI) commands can be executed from the $SPLUNK_HOME/bin directory.
 Replace $SPLUNK_HOME with the actual path to your Splunk installation directory.
+
 ----------------------------------------------------------------------------------------------
 To add user:
 ./splunk add user supportuser -password changeme2 -role supportgroup -auth admin:changeme
