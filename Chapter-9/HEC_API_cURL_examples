@@ -1,0 +1,12 @@
+# Chapter 9, Section: Sending data to HEC using cURL command examples
+# ---------------------------------------------------------------------
+# HEC REST API endpoints: https://docs.splunk.com/Documentation/Splunk/latest/Data/HECRESTendpoints
+
+## Sending data as a JSON formatted payload – collector/event request. Make sure to replace with active HEC token and splunk host
+curl –k -H "Authorization: Splunk 09776ade-cf23-42c0-9138-89ad8388516a" -H "X-Splunk-Request-Channel: FE0ECFAD-13D5-401B-847D-77833BD77131" https://mysplunk.example.com:8088/services/collector/event -d '{"sourcetype": "signaling_data", "event": "stable signal!"}'
+
+## Sending data as a raw event – Collector/raw request:
+curl –k -H "Authorization: Splunk 09776ade-cf23-42c0-9138-89ad8388516a" -H "X-Splunk-Request-Channel: FE0ECFAD-13D5-401B-847D-77833BD77131" https://mysplunk.example.com:8088/services/collector/raw -d 'stable signal!'
+
+## Finding the event indexing status – /ack endpoint request
+curl -H "Authorization: Splunk 09776ade-cf23-42c0-9138-89ad8388516a" -H "X-Splunk-Request-Channel: FE0ECFAD-13D5-401B-847D-77833BD77131" https://mysplunk.example.com:8088/services/collector/ack -d '{"acks":[0,1]}'
