@@ -1,3 +1,11 @@
+
+### [Packt Conference : Put Generative AI to work on Oct 11-13 (Virtual)](https://packt.link/JGIEY)
+
+<b><p align='center'>[![Packt Conference](https://hub.packtpub.com/wp-content/uploads/2023/08/put-generative-ai-to-work-packt.png)](https://packt.link/JGIEY)</p></b> 
+3 Days, 20+ AI Experts, 25+ Workshops and Power Talks 
+
+Code: <b>USD75OFF</b>
+
 # Splunk 9.x Enterprise Certified Admin Guide
 Ace the Splunk Enterprise Certified Admin exam with the help of this comprehensive prep guide.
 [Available to order in Amazon.com](https://www.amazon.com/Splunk-Enterprise-Certified-Admin-Guide-ebook/dp/B0C3HH3XZ7/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1693915467&sr=8-2)
